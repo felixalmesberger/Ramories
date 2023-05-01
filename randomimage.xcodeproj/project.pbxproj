@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA77EDBD29FFA0B4004ECB76 /* ImageBySaliencyCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77EDBC29FFA0B4004ECB76 /* ImageBySaliencyCropper.swift */; };
 		AAE95D2B2843CE5400E85911 /* randomimageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE95D2A2843CE5400E85911 /* randomimageApp.swift */; };
 		AAE95D2D2843CE5400E85911 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE95D2C2843CE5400E85911 /* ContentView.swift */; };
 		AAE95D2F2843CE5600E85911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE95D2E2843CE5600E85911 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA77EDBC29FFA0B4004ECB76 /* ImageBySaliencyCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBySaliencyCropper.swift; sourceTree = "<group>"; };
 		AAE95D272843CE5400E85911 /* randomimage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomimage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE95D2A2843CE5400E85911 /* randomimageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomimageApp.swift; sourceTree = "<group>"; };
 		AAE95D2C2843CE5400E85911 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		AAE95D1E2843CE5400E85911 = {
 			isa = PBXGroup;
 			children = (
+				AA77EDBC29FFA0B4004ECB76 /* ImageBySaliencyCropper.swift */,
 				AAE95D542843CE8C00E85911 /* RandomPhotoLibraryFoto.swift */,
 				AAE95D292843CE5400E85911 /* randomimage */,
 				AAE95D3A2843CE5600E85911 /* randomimageTests */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA77EDBD29FFA0B4004ECB76 /* ImageBySaliencyCropper.swift in Sources */,
 				AAE95D552843CE8C00E85911 /* RandomPhotoLibraryFoto.swift in Sources */,
 				AAE95D2D2843CE5400E85911 /* ContentView.swift in Sources */,
 				AAE95D2B2843CE5400E85911 /* randomimageApp.swift in Sources */,

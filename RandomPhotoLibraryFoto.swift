@@ -68,6 +68,7 @@ final class RandomPhotoLibraryFoto : ObservableObject {
         DispatchQueue.main.async {
         let randomIndex = Int.random(in: 0..<self.numberOfImages)
         let foto = self.fotos[randomIndex]
+        
         let options = PHImageRequestOptions()
         options.isSynchronous = true
         options.deliveryMode = .highQualityFormat
@@ -78,7 +79,8 @@ final class RandomPhotoLibraryFoto : ObservableObject {
                                               contentMode: .aspectFill,
                                               options: options,
                                               resultHandler: { image, _ in
-                self.current = image ?? UIImage()
+            let cropped = cropImageWithSaliency(image: image!, screenSize: UIScreen.main.bounds)
+            self.current = cropped
       })
     }
   }
